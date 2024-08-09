@@ -26,7 +26,7 @@ The label or target variable is:
 - `available`: Binary indicator (0 or 1) showing whether the charging station is available.
 
 ## Evaluation
-Each model's performance is evaluated based on accuracy. The results are documented in the Jupyter notebooks included in the repository.
+Each model's performance is evaluated based on accuracy. The results are documented in the Google Colab notebooks included in the repository.
 
 ## Acknowledgments
 - Thanks to my Supervisor who have invested time in improving this project.
