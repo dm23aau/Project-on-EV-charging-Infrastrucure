@@ -38,9 +38,9 @@ The key features include:
 - `facilityType`: Type of facility where the charging station is located.
 
 ## Data Preprocessing
-Missing Values: The dataset was cleaned by removing rows with missing values in critical columns, such as distance.
-Date Formatting: The created and ended timestamps were corrected for inconsistent year formatting and converted to proper datetime objects.
-Feature Scaling: Numerical features were standardized to ensure fair comparison during clustering and modeling.
+-Missing Values: The dataset was cleaned by removing rows with missing values in critical columns, such as distance.
+-Date Formatting: The created and ended timestamps were corrected for inconsistent year formatting and converted to proper datetime objects.
+-Feature Scaling: Numerical features were standardized to ensure fair comparison during clustering and modeling.
 
 ## Exploratory Data Analysis (EDA)
 -Distribution Plots: Histograms and boxplots were used to visualize the distribution and identify outliers in key features like kwhTotal, chargeTimeHrs, and distance.
@@ -54,8 +54,8 @@ ARIMA Model: An ARIMA model was used to forecast the number of charging sessions
 K-Means Clustering: Stations were clustered based on their usage patterns (kwhTotal, chargeTimeHrs, and distance). The Elbow method was used to determine the optimal number of clusters.
 
 ## Availability Prediction
-Feature Engineering: Availability data was created by resampling the sessions to hourly intervals and labeling hours as available or unavailable.
-Machine Learning Models: Convolutional Neural Networks (CNN), Random Forest, and Logistic Regression models were trained to predict station availability.
+-Feature Engineering: Availability data was created by resampling the sessions to hourly intervals and labeling hours as available or unavailable.
+-Machine Learning Models: Convolutional Neural Networks (CNN), Random Forest, and Logistic Regression models were trained to predict station availability.
 
 ## Model Evaluation
 -Accuracy: The performance of each model was evaluated using accuracy metrics.
