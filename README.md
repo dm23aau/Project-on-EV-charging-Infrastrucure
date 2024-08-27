@@ -3,22 +3,22 @@
 ## Project Overview
 The goal of this project is to analyze and predict the behavior of EV charging stations using historical data. The key steps include:
 
-    Data Cleaning and Preprocessing.
-    Exploratory Data Analysis (EDA) to understand usage patterns.
-    Time Series Forecasting using ARIMA models.
-    Clustering analysis to identify patterns in station usage.
-    Predicting the availability of charging stations using machine learning models
+   - Data Cleaning and Preprocessing.
+   - Exploratory Data Analysis (EDA) to understand usage patterns.
+   - Time Series Forecasting using ARIMA models.
+   - Clustering analysis to identify patterns in station usage.
+    -Predicting the availability of charging stations using machine learning models
 
 ## Dataset Description
 The dataset used in this project (station_data_dataverse.csv) includes various features such as:
 
-    stationId: Unique identifier for each charging station.
-    created: Timestamp when a charging session started.
-    ended: Timestamp when a charging session ended.
-    kwhTotal: Total energy consumed during the session.
-    chargeTimeHrs: Duration of the charging session.
-    distance: Distance to the nearest charging station.
-    facilityType: Type of facility where the station is located
+    -stationId: Unique identifier for each charging station.
+    -created: Timestamp when a charging session started.
+    -ended: Timestamp when a charging session ended.
+    -kwhTotal: Total energy consumed during the session.
+    -chargeTimeHrs: Duration of the charging session.
+    -distance: Distance to the nearest charging station.
+    -facilityType: Type of facility where the station is located
 
 ## Models Used
 - ARIMA (AutoRegressive Integrated Moving Average):Used for predicting usage trends of electric vehicle charging stations based on historical hourly data
