@@ -62,8 +62,8 @@ K-Means Clustering: Stations were clustered based on their usage patterns (kwhTo
 -Training History: The training process of the CNN model was visualized through accuracy and loss plots over epochs.
 
 ## Results
--The ARIMA model provided accurate short-term forecasts for station usage.
--K-Means clustering revealed distinct usage patterns among stations.
+-The ARIMA model was instrumental in forecasting the hourly usage patterns, providing insights into peak times and potential off-peak incentives. 
+-The k-means clustering algorithm helped categorize charging stations based on user interaction patterns, which is essential for targeted improvements and resource allocation.
 -The CNN model achieved good accuracy in predicting station availability, outperforming traditional models like Random Forest and Logistic Regression.
 
 ## Acknowledgments
